@@ -10,7 +10,7 @@ enum
 	NET_CONNSTATE_ERROR=4,
 
 	NET_MAX_PACKETSIZE = 1400,
-	NET_MAX_CLIENTS = 1024
+	NET_MAX_CLIENTS = 5000
 };
 
 typedef int (*NETFUNC_DELCLIENT)(int ClientID, const char* pReason, void *pUser);
